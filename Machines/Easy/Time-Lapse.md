@@ -1,7 +1,7 @@
-TimeLapse-WriteUp
+#TimeLapse-WriteUp
 
-# We started by scanning all TCP ports to identify exposed services.
-# We used the following `nmap` command to detect all open TCP ports on the target. The `-Pn` flag skips host discovery (useful if ICMP is blocked), `-p-` scans all 65535 ports, and `-sS` performs a stealthy SYN scan.
+We started by scanning all TCP ports to identify exposed services.
+We used the following `nmap` command to detect all open TCP ports on the target. The `-Pn` flag skips host discovery (useful if ICMP is blocked), `-p-` scans all 65535 ports, and `-sS` performs a stealthy SYN scan.
 
 ```bash
 sudo nmap --open -Pn -p- -sS -n -vvv 10.10.11.152
