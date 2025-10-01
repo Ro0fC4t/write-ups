@@ -1,3 +1,4 @@
+![timelapse](https://github.com/user-attachments/assets/6feecea6-e895-400b-b024-237619d7060b)
 # TimeLapse-WriteUp
 
 In this Windows Active Directory machine, we’ll perform a full domain compromise starting from a guest SMB share, extracting sensitive backups, and leveraging certificate-based authentication to pivot into privileged access. You will learn how to:
