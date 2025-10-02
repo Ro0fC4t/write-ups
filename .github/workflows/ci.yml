@@ -6,6 +6,7 @@ on:
     branches:
       - main
     paths:
+      - "/mkdocs.yml"
       - "docs/**"
       - ".github/workflows/ci.yml"
 
