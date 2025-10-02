@@ -1,3 +1,15 @@
 site_name: Ro0fC4t-Blog
 theme:
   name: material
+  palette:
+    # Tema oscuro predeterminado
+    - scheme: default
+      toggle:
+        icon: material/weather-night
+        name: Dark
+
+    # Tema claro opcional
+    - scheme: slate
+      toggle:
+        icon: material/weather-sunny
+        name: Light
